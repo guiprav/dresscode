@@ -2,6 +2,7 @@
   "name": "dresscode",
   "version": "0.0.0",
   "scripts": {
+    "prestart": "browserify client.js -o static/bundle.js",
     "start": "./server.js"
   },
   "repository": {
