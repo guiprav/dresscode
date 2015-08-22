@@ -1,6 +1,9 @@
 {
   "name": "dresscode",
   "version": "0.0.0",
+  "scripts": {
+    "start": "./server.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/n2liquid/dresscode"
