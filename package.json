@@ -19,6 +19,7 @@
     "express": "^4.13.3",
     "glob": "^5.0.14",
     "handlebars": "^3.0.3",
-    "lodash": "^3.10.1"
+    "lodash": "^3.10.1",
+    "zepto-node": "^1.0.0"
   }
 }
