@@ -11,6 +11,7 @@
     "url": "https://github.com/n2liquid/dresscode/issues"
   },
   "dependencies": {
-    "express": "^4.13.3"
+    "express": "^4.13.3",
+    "handlebars": "^3.0.3"
   }
 }
