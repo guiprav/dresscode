@@ -1,0 +1,29 @@
+{
+    "dressTypeSets": {
+        "top": "shirt skirt2 coat",
+        "bottom": "skirt"
+    },
+    "dressPieces": {
+        "shirt1": "shirt",
+        "shirt2": "shirt",
+        "coat1": "coat",
+        "mario-skirt": "skirt2",
+        "luigi-skirt": "skirt2"
+    },
+    "dressTypesReplace": {
+        "shirt": "shirt skirt2",
+        "skirt": "skirt skirt2",
+        "skirt2": "shirt skirt skirt2",
+        "coat": "shirt skirt2"
+    },
+    "dressPiecePlacements": {
+        "shirt1": {
+            "width": "344px"
+        },
+        "shirt2": {
+            "top": "91px",
+            "left": "124px",
+            "width": "97px"
+        }
+    }
+}

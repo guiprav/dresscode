@@ -1,0 +1,14 @@
+{{#each dressPiecePlacements}}
+.doll-container .dress-piece[data-id="{{@key}}"]
+{
+    {{#if left}}
+        left: {{left}};
+    {{/if}}
+    {{#if top}}
+        top: {{top}};
+    {{/if}}
+    {{#if width}}
+        width: {{width}};
+    {{/if}}
+}
+{{/each}}

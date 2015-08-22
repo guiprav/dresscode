@@ -1,2 +1,40 @@
 {{> head}}
-Hello, world!
+<div class="doll-box">
+    <div class="doll-container">
+        {{#each dressPieces}}
+            <div
+                data-id="{{@key}}"
+                data-type="{{this}}"
+                class="dress-piece"
+                style="background-image: url('{{../dollPath}}/pieces/{{@key}}.png')"
+            >
+            </div>
+        {{/each}}
+    </div>
+    <div class="doll-setting">
+        <ul class="dress-type-sets">
+            {{#each dressSets}}
+                <li
+                    data-id="{{@key}}"
+                    data-type-set="{{this}}"
+                    class="dress-type-set-icon"
+                    style="background-image: url('{{../dollPath}}/sets/{{@key}}.icon.png')"
+                >
+                    <button></button>
+                </li>
+            {{/each}}
+        </ul>
+        <ul class="dress-pieces">
+            {{#each dressPieces}}
+                <li
+                    data-id="{{@key}}"
+                    data-type="{{this}}"
+                    class="dress-piece"
+                    style="background-image: url('{{../dollPath}}/pieces/{{@key}}.icon.png')"
+                >
+                    <button></button>
+                </li>
+            {{/each}}
+        </ul>
+    </div>
+</div>
